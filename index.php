@@ -61,7 +61,7 @@
 			} elseif ($row['lvl']=='user') {
 				$_SESSION["username"] = $row['username'];
 				$_SESSION["lvl"] = "user";
-				header("Location: menu_user.php");
+				header("Location: dashboard-user.php");
 			}
 		}  else {
 			echo "<script>alert('Gagal login! coba lagi.')</script>";
