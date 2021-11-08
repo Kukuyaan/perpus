@@ -256,7 +256,7 @@ if (!isset($_SESSION['username'])) {
                 <div class="card mb-3" style="width: 18rem;">
                   <img src="img/buku/buku.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                    <h5 class="card-title">Nama Buku</h5>
+                    <h5 class="card-title">Judul Buku</h5>
                     <p class="card-text">Sinopsis Buku</p>
                     <a href="#" class="btn btn-primary">Edit Buku</a>
                     </div>
